@@ -3054,8 +3054,8 @@ html.no-csstransitions .hero-content {
   background-image: url(../images/icons/social/icon-facebook.svg);
 }
 
-.social-list__icon--twitter::before {
-  background-image: url(../images/icons/social/icon-twitter.svg);
+.social-list__icon--youtube::before {
+  background-image: url(../images/icons/podcast/icon-youtube.svg);
 }
 
 .social-list__icon--instagram::before {
@@ -3433,9 +3433,6 @@ html.no-csstransitions .hero-content {
 .church-staff__header {
   margin-bottom: 1.6rem;
   padding-top: 1.6rem;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
   -webkit-flex-flow: row nowrap;
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
