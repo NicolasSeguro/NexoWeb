@@ -1071,6 +1071,12 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
+.btn-give {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
 
 /* =================================================================== 
  * # additional components
@@ -2637,7 +2643,7 @@ html.no-csstransitions .hero-content {
 
 .connect-content {
   padding-bottom: 12rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  /*border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
 }
 
 .connect-content .column {
