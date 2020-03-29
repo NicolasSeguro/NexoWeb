@@ -1077,6 +1077,10 @@ input::-moz-focus-inner {
   text-decoration: underline;
 }
 
+.btn-give-two {
+  text-decoration: underline;
+}
+
 
 /* =================================================================== 
  * # additional components
@@ -2528,7 +2532,7 @@ html.no-csstransitions .hero-content {
 .s-about {
   padding-top: 19.6rem;
   padding-bottom: 19.6rem;
-  background-color: #3b0d11;
+  /* background-color: #3b0d11; */
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -2846,6 +2850,23 @@ html.no-csstransitions .hero-content {
   color: #000000;
 }
 
+.series-content__buttons-two .btn { 
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+.series-content__buttons-two .btn:hover,
+.series-content__buttons-two .btn:focus {
+  border-color: #000000;
+  color: #000000;
+  background-color: #fff;
+}
+
+.qr-style {
+  display: flex;
+  margin: 4px auto;
+}
 /* ------------------------------------------------------------------- 
  * ## series subscribe 
  * ------------------------------------------------------------------- */
@@ -3068,8 +3089,8 @@ html.no-csstransitions .hero-content {
   background-image: url(../images/icons/social/icon-instagram.svg);
 }
 
-.social-list__icon--email::before {
-  background-image: url(../images/icons/social/icon-email.svg);
+.social-list__icon--spotify::before {
+  background-image: url(../images/icons/podcast/icon-spotify.svg);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3141,7 +3162,7 @@ html.no-csstransitions .hero-content {
 .s-footer {
   padding-top: 12rem;
   padding-bottom: 8rem;
-  background-color: #3b0d11;
+  /* background-color: #3b0d11; */
   font-family: "Open Sans", sans-serif;
   font-size: 1.7rem;
   line-height: 1.882;
@@ -3159,15 +3180,16 @@ html.no-csstransitions .hero-content {
 }
 
 .s-footer .btn--footer {
-  border-color: #21070a;
-  background-color: #21070a;
+  border-color: #000000;
+  background-color: #000000;
   padding: 0 4rem;
 }
 
 .s-footer .btn--footer:hover,
 .s-footer .btn--footer:focus {
-  border-color: #000000;
-  background-color: #000000;
+  background-color: #fff;
+  border-color: #fff;
+  color: #000000;
 }
 
 .s-footer .row .column:first-child {
