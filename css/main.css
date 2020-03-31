@@ -3449,6 +3449,10 @@ html.no-csstransitions .hero-content {
   padding-top: 4rem;
 }
 
+.page-content.page-now .row {
+  max-width: none;
+}
+
 /* ------------------------------------------------------------------- 
  * ## about page 
  * ------------------------------------------------------------------- */
