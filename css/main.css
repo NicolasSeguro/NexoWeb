@@ -2866,7 +2866,7 @@ html.no-csstransitions .hero-content {
 
 .qr-style {
   display: flex;
-  margin: 4px auto;
+  margin: 3% auto 3%;
 }
 /* ------------------------------------------------------------------- 
  * ## series subscribe 
@@ -3377,6 +3377,10 @@ html.no-csstransitions .hero-content {
   position: relative;
 }
 
+.page-header.p-iner {
+  background-position: inherit;
+}
+
 .page-header::before {
   display: block;
   content: "";
@@ -3409,7 +3413,7 @@ html.no-csstransitions .hero-content {
 }
 
 .page-header--about {
-  background-image: url(../images/header-bgs/about-header-bg-2000.jpg);
+  background-image: url(../images/about2.png);
 }
 
 .page-header--contact {
@@ -3417,15 +3421,19 @@ html.no-csstransitions .hero-content {
 }
 
 .page-header--events {
-  background-image: url(../images/header-bgs/events-header-bg-2000.jpg);
+  background-image: url(../images/conocer.png);
+}
+
+.page-header--events-single {
+  background-image: url(../images/Servicios.jpg);
 }
 
 .page-header--connect {
-  background-image: url(../images/header-bgs/connect-header-bg-2000.jpg);
+  background-image: url(../images/gn.png);
 }
 
 .page-header--volunteer {
-  background-image: url(../images/header-bgs/volunteer-header-bg-2000.jpg);
+  background-image: url(../images/volunteer.png);
 }
 
 .page-header__content {
