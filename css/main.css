@@ -1184,7 +1184,7 @@ input::-moz-focus-inner {
   background-repeat: no-repeat;
   background: center center;
   background-size: contain;
-  background-image: url(../images/icons/icon-quote.svg);
+  background-image: url(../icon-quote.svg);
   position: absolute;
   top: 4rem;
   left: 4rem;
@@ -1550,12 +1550,12 @@ input::-moz-focus-inner {
 }
 
 .pgn__prev {
-  background-image: url("../images/icons/icon-arrow-left.svg");
+  background-image: url("../icon-arrow-left.svg");
   left: 0;
 }
 
 .pgn__next {
-  background-image: url("../images/icons/icon-arrow-right.svg");
+  background-image: url("../icon-arrow-right.svg");
   right: 0;
 }
 
@@ -1682,15 +1682,15 @@ input::-moz-focus-inner {
 }
 
 .events-list__meta .events-list__meta-date::before {
-  background-image: url(../images/icons/icon-calendar.svg);
+  background-image: url(../icon-calendar.svg);
 }
 
 .events-list__meta .events-list__meta-time::before {
-  background-image: url(../images/icons/icon-time.svg);
+  background-image: url(../icon-time.svg);
 }
 
 .events-list__meta .events-list__meta-location::before {
-  background-image: url(../images/icons/icon-location.svg);
+  background-image: url(../icon-location.svg);
   height: 2.6rem;
   width: 2.6rem;
 }
@@ -2089,7 +2089,7 @@ input::-moz-focus-inner {
 }
 
 .no-js .s-hero {
-  background: #000000;
+  background: url(Nexo.mp4)
 }
 
 /* -------------------------------------------------------------------
@@ -2759,7 +2759,7 @@ html.no-csstransitions .hero-content {
   padding-bottom: 8rem;
   min-height: 80rem;
   background-color: #050505;
-  background-image: url(../images/pattern.jpg);
+  background-image: url(../pattern.jpg);
   background-size: 760px 380px;
   color: #ffffff;
   position: relative;
@@ -2907,19 +2907,19 @@ html.no-csstransitions .hero-content {
 }
 
 .series-content__subscribe-links .ss-apple-podcast a {
-  background-image: url(../images/icons/podcast/icon-podcast.svg);
+  background-image: url(../icon-podcast.svg);
 }
 
 .series-content__subscribe-links .ss-spotify a {
-  background-image: url(../images/icons/podcast/icon-spotify.svg);
+  background-image: url(../icon-spotify.svg);
 }
 
 .series-content__subscribe-links .ss-soundcloud a {
-  background-image: url(../images/icons/podcast/icon-soundcloud.svg);
+  background-image: url(../icon-soundcloud.svg);
 }
 
 .series-content__subscribe-links .ss-youtube a {
-  background-image: url(../images/icons/podcast/icon-youtube.svg);
+  background-image: url(../icon-youtube.svg);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3079,19 +3079,19 @@ html.no-csstransitions .hero-content {
 }
 
 .social-list__icon--facebook::before {
-  background-image: url(../images/icons/social/icon-facebook.svg);
+  background-image: url(../icon-facebook.svg);
 }
 
 .social-list__icon--youtube::before {
-  background-image: url(../images/icons/podcast/icon-youtube.svg);
+  background-image: url(../icon-youtube.svg);
 }
 
 .social-list__icon--instagram::before {
-  background-image: url(../images/icons/social/icon-instagram.svg);
+  background-image: url(../icon-instagram.svg);
 }
 
 .social-list__icon--spotify::before {
-  background-image: url(../images/icons/podcast/icon-spotify.svg);
+  background-image: url(../icon-spotify.svg);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3413,27 +3413,27 @@ html.no-csstransitions .hero-content {
 }
 
 .page-header--about {
-  background-image: url(../images/about2.png);
+  background-image: url(../about2.png);
 }
 
 .page-header--contact {
-  background-image: url(../images/header-bgs/contact-header-bg-2000.jpg);
+  background-image: url(../contact-header-bg-2000.jpg);
 }
 
 .page-header--events {
-  background-image: url(../images/conocer.png);
+  background-image: url(../conocer.png);
 }
 
 .page-header--events-single {
-  background-image: url(../images/Servicios.jpg);
+  background-image: url(../Servicios.jpg);
 }
 
 .page-header--connect {
-  background-image: url(../images/gn.png);
+  background-image: url(../gn.png);
 }
 
 .page-header--volunteer {
-  background-image: url(../images/volunteer.png);
+  background-image: url(../volunteer.png);
 }
 
 .page-header__content {
